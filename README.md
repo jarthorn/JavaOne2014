@@ -1,2 +1,1 @@
-JavaOne2014
-===========
+Talks prepared for JavaOne 2014

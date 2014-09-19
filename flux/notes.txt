@@ -1,0 +1,8 @@
+
+1. Value prop for desktop tools
+2. Value prop for cloud tools
+3. Current state of cloud tools
+4. Why not have both?
+5. Demo of current Flux capabilities
+6. Project overview
+   - architecture
