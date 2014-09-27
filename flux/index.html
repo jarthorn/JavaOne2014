@@ -60,6 +60,27 @@
 				</section>
 
 				<section>
+					<h2>"Why is it so hard to collaborate when writing code?"</h2>
+					<pre><code data-trim contenteditable>
+git add .
+git commit -m "Check this out"
+git format-patch -s origin > patch.txt
+(email the patch)
+...
+git am patch.txt
+git diff HEAD~1
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>"I can only ever code on one laptop because it is so #$@&%*! hard to setup my tools the way I want them"</h2>
+				</section>
+
+				<section>
+					<h2>"I need to know the exact set of tools used to build the software I delivered three years ago."</h2>
+				</section>
+
+				<section>
 					<h2>Cloud as Tool Platform</h2>
 						<img width=500 src="images/cloud-computing.png" alt="Cloud Computing">
 					<small>Source: Sam Johnston Creative Commons BY-SA 3.0</small>
@@ -71,7 +92,7 @@
 						<li>Truly cross platform (tablets, servers, desktops ...)</li>
 						<li>Extreme scalability (up and down)</li>
 						<li>Enables live remote collaboration</li>
-						<li>Low cost <a href="https://orion.eclipse.org/help/about.html">tool</a> <a href="https://hudson.eclipse.org/orion/">configuration</a></li>
+						<li>Low cost <a href="https://orion.eclipse.org/about/about.html">tool</a> <a href="https://hudson.eclipse.org/orion/">configuration</a></li>
 						<li>Toolchain control</li>
 					</ul>
 				</section>
@@ -90,7 +111,7 @@
 					<ul>
 						<li>Stay with desktop tools and live with desktop constraints</li>
 						<li>Take the leap to the cloud, and leave existing tools behind</li>
-						<li>But what if you could have <a href="flux.cfapps.io">both</a>?</li>
+						<li>But what if you could have <a href="https://flux.cfapps.io">both</a>?</li>
 					</ul>
 				</section>
 				
@@ -162,13 +183,13 @@
 				</section>
 
 				<section>
-					<h1>Work Areas</h1>
+					<h1>Disclaimers</h1>
 					<ul>
-						<li>Basic infrastructure: messaging system, repository synchronization</li>
-						<li>Cloud-based Java language tooling</li>
-						<li>Cloud-based JavaScript language tooling</li>
-						<li>Application deployment and execution services, possible debug integration</li>
-						<li>&lt;enter your work area here&gt;</li>
+						<li>Current code is a prototype</li>
+						<li>Do not use the current Flux technology for real tools yet</li>
+						<li>Nothing contained in this presentation is intended to, or shall have the effect of creating
+						any warranty or representation from IBM, Pivotal, their affiliates, suppliers, and/or licensors</li>
+						<li>No animals were harmed in the making of this presentation</li>
 					</ul>
 				</section>
 				
@@ -177,14 +198,13 @@
 					<ul>
 						<li><a href="http://wiki.eclipse.org/Flux">http://wiki.eclipse.org/Flux</a></li>
 						<li><a href="http://github.com/eclipse/flux">http://github.com/eclipse/flux</a></li>
-						<li><a href="http://github.com/jarthorn/EclipseConFrance2014">http://github.com/jarthorn/EclipseConFrance2014</a></li>
+						<li><a href="http://github.com/jarthorn/JavaOne2014">http://github.com/jarthorn/JavaOne2014</a></li>
 					</ul>
 				</section>
 
 				<section>
 					<h1>Questions?</h1>
 						<img width="320" src="images/flux-capacitor.jpg" alt="Flux Capacitor">
-
 				</section>
 
 			</div>
