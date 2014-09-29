@@ -1,0 +1,38 @@
+Java Editing
+	Maximize editor
+	quick outline
+	quick type hierarchy
+	quick fixes/assists
+		Developing code by referencing non-existent types/members then creating with quick fix
+		fix most kinds of warnings
+		manipulate if statements
+			split/merge, block/statement, boolean simplification
+	Surround with (Alt+Shift+Z)
+	Mark occurrences
+		- references, return values, throws clause
+		
+		
+	Save actions:
+		Cleanup
+		Organize imports
+		format
+		Makes it automatic, thoughtless, avoids big diffs mixed with real code changes
+	
+			
+Generic IDE features
+	Quick access
+	Key assist - Ctrl+Shift+L
+	Automatic editor close
+	Open Type
+		Camel case
+		End of name
+	
+			
+
+
+Debugging
+	Hot code replace
+	Drop to frame
+	Live edit variable values
+	Conditional breakpoints
+	Scrapbook
