@@ -23,12 +23,16 @@ Generic IDE features
 	Quick access
 	Key assist - Ctrl+Shift+L
 	Automatic editor close
+	Paste snippet in package explorer
+	
+	
 	Open Type
 		Camel case
 		End of name
 	
-			
-
+	Split editors Ctrl+Shift+_
+	Line numbers
+	Dark theme
 
 Debugging
 	Hot code replace
