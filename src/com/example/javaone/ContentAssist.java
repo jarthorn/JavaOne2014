@@ -14,15 +14,26 @@ package com.example.javaone;
  * 
  */
 public class ContentAssist {
+	private int age;
 
 	public void methodCompletions() {
 		String s = "hello";
 		int myStart = 3, myEnd = 4;
-		s.sub
+		//fuzy matching
 		s.eq
 		
-		throw new Nu
+		//smart parameter completion
+		s.sub
 		
+		
+		//proposals filtered on throwables
+		throw new Nu
+	
+		//generate inner class
 		Runnable r = new Run
 	}
+	//create getter/setter for age field
+
+	//generate equals/hashcode
+
 }

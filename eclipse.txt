@@ -10,6 +10,8 @@ Java Editing
 	Surround with (Alt+Shift+Z)
 	Mark occurrences
 		- references, return values, throws clause
+	Ctrl+Click navigation
+	Rename in file
 		
 		
 	Save actions:

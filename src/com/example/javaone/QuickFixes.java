@@ -49,6 +49,11 @@ public class QuickFixes {
 
 	}
 
+	public QuickFixes(String message) {
+		super();
+		//assign parameter to field
+	}
+
 	private void liftPen(int x, int y) {
 		//sample
 	}
