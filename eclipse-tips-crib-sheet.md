@@ -10,28 +10,28 @@
 *	Duplicate line/selection Ctrl+Alt+Up/Down
 	
 *	Content assist 
-		* Ctrl+Space
-		* See ContentAssist.java
+	* Ctrl+Space
+	* See ContentAssist.java
 
 *	Quick fixes/assists
-		* Ctrl+3
-		* See QuickFixes.java
+	* Ctrl+3
+	* See QuickFixes.java
 
 *	Surround with (Alt+Shift+Z)
-		* Try/catch
-		* Control structures such as while loop
+	* Try/catch
+	* Control structures such as while loop
 
 *	Mark occurrences
-		* Put cursor on a field or method to highlight all references
-		* Put cursor on a throws clause to highlight all lines that can throw that exception
-		* Put cursor on return value to show all possible method exit points (return statements, checked exceptions)
+	* Put cursor on a field or method to highlight all references
+	* Put cursor on a throws clause to highlight all lines that can throw that exception
+	* Put cursor on return value to show all possible method exit points (return statements, checked exceptions)
 
 *	Ctrl+Click navigation
-		* Jump to declaration/implementation of a method
+	* Jump to declaration/implementation of a method
 
 *	Rename in file
-		* Ctrl+2 to open "in-place" refactorings in single editor
-		* Rename, extract method
+	* Ctrl+2 to open "in-place" refactorings in single editor
+	* Rename, extract method
 		
 *	Save actions: (Window>Preferences>Editor>Save Actions)
 	* Cleanup on save
