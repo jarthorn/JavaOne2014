@@ -13,7 +13,7 @@ package com.example.javaone;
 import java.io.File;
 
 /**
- * 
+ * This class demonstrates some neat features of Eclipse content assist.
  */
 public class ContentAssist {
 	private int age;
@@ -40,9 +40,9 @@ public class ContentAssist {
 		Runnable r = new Run
 	}
 
-	//create getter/setter for age field
+	//create getter/setter for age field (type "get" and invoke content assist)
 
-	//generate equals/hashcode
+	//generate equals/hashcode (see Source menu)
 
 	/**
 	 * Can also do content assist in javadoc 
