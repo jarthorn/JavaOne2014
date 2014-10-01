@@ -2,15 +2,18 @@ Java Editing
 	Maximize editor
 	quick outline
 	quick type hierarchy
+	move line/selection
+	duplicate line/selection
+
 	quick fixes/assists
-		Developing code by referencing non-existent types/members then creating with quick fix
-		fix most kinds of warnings
-		manipulate if statements
-			split/merge, block/statement, boolean simplification
+
 	Surround with (Alt+Shift+Z)
+
 	Mark occurrences
 		- references, return values, throws clause
+
 	Ctrl+Click navigation
+
 	Rename in file
 		
 		

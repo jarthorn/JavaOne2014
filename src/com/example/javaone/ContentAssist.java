@@ -10,11 +10,14 @@
  *******************************************************************************/
 package com.example.javaone;
 
+import java.io.File;
+
 /**
  * 
  */
 public class ContentAssist {
 	private int age;
+	private String name;
 
 	public void methodCompletions() {
 		String s = "hello";
@@ -25,6 +28,10 @@ public class ContentAssist {
 		//smart parameter completion
 		s.sub
 		
+		//context aware, with probability
+		String msg = s;
+		if (msg.)
+			
 		
 		//proposals filtered on throwables
 		throw new Nu
@@ -32,8 +39,18 @@ public class ContentAssist {
 		//generate inner class
 		Runnable r = new Run
 	}
+
 	//create getter/setter for age field
 
 	//generate equals/hashcode
+
+	/**
+	 * Can also do content assist in javadoc 
+	 * Example: {@link Qui}
+	 * @param 
+	 */
+	public String computeName(String first, String last) {
+		return first + ' ' + last;
+	}
 
 }

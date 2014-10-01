@@ -10,7 +10,10 @@
  *******************************************************************************/
 package com.example.javaone;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 
@@ -24,9 +27,26 @@ public class QuickFixes {
 		//change method signature
 		String result = missing.hello("greet");
 
+		//surround with or add throws
+		File file = new File("c:\\tmp");
+		new FileOutputStream(file).close();
+
+		//can also surround with Alt+Shift+Z
+
 	}
 
 	public void fixWarnings() {
+		//indirect static access
+		QuickFixes quickFixes = new QuickFixes();
+		String msg = quickFixes.getStaticValue();
+
+		//infer generic type
+		List messages = new ArrayList();
+
+		if (msg != null) {
+			messages.add(msg);
+			System.out.println(messages);
+		}
 
 	}
 
@@ -52,6 +72,13 @@ public class QuickFixes {
 	public QuickFixes(String message) {
 		super();
 		//assign parameter to field
+	}
+
+	public QuickFixes() {
+	}
+
+	public static String getStaticValue() {
+		return "hello";
 	}
 
 	private void liftPen(int x, int y) {
