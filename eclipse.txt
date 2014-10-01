@@ -4,6 +4,10 @@ Java Editing
 	quick type hierarchy
 	move line/selection
 	duplicate line/selection
+	incremental find
+	next/previous annotation
+	
+	content assist
 
 	quick fixes/assists
 
@@ -15,7 +19,6 @@ Java Editing
 	Ctrl+Click navigation
 
 	Rename in file
-		
 		
 	Save actions:
 		Cleanup

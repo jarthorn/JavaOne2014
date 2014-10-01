@@ -74,7 +74,11 @@ public class QuickFixes {
 		//assign parameter to field
 	}
 
+	//quick assist Ctrl+2 - rename in file, extract method
 	public QuickFixes() {
+		fixErrors();
+		fixWarnings();
+		fixGoodCodeToo();
 	}
 
 	public static String getStaticValue() {
